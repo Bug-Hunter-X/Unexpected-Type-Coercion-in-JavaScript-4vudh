@@ -1,0 +1,1 @@
+This example demonstrates a common, yet subtle, error in JavaScript stemming from its loose typing system. The function `myFunction` intends to add two numbers, but due to the implicit type coercion when adding a number and a string, it performs string concatenation instead. This leads to unexpected results and can be difficult to debug if not carefully considered.
